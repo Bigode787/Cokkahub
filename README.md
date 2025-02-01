@@ -6,11 +6,11 @@ local MyLevel, CFrameQuest, CFrameMon, Mon, NameMon, NameQuest, LevelQuest
 
 local Vector2,CFrame,Instance,UDim2=Vector2,CFrame,Instance,UDim2 -- yes this will barely add performance but ya
 local _25msShared={} -- getgenv = bad and it crashes on second execution anyways :3
-if getgenv().CokkaRan then
+if getgenv().PingaHubRan then
 	warn("ALREADY OPEN")
 	return
 end
-getgenv().CokkaRan=true
+getgenv().PingaHubRan=true
 
 local player = game:GetService("Players").LocalPlayer
 while not player.Character do
@@ -1292,7 +1292,7 @@ function CheckBossDimension()
 		end
 	end
 end;
-local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/CokkaHub/ui.lua"))()
+local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/PingaHubHub/ui.lua"))()
 local L_34_ = L_33_:Window("Pinga Hub 25ms was here", Enum.KeyCode.LeftControl)
 print("|Pinga DEBUG| Anti AFK")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -5081,7 +5081,7 @@ L_35_.Info:Button("My Discord (Click Copy)", function()
 	setclipboard("https://discord.gg/25ms")
 end)
 L_35_.Info:Button("My Youtube (Click Copy)", function()
-	setclipboard("https://www.youtube.com/@CokkaHub")
+	setclipboard("https://www.youtube.com/@PingaHubHub")
 end)
 L_35_.Info:Button("Listen to Lofi Music", function()
 	local L_553_ = Instance.new("Sound")
