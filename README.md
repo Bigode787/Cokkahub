@@ -1297,7 +1297,7 @@ function CheckBossDimension()
 		end
 	end
 end;
-local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/CokkaHub/ui.lua"))()
+local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/PingaHub/ui.lua"))()
 local L_34_ = L_33_:Window("Cokka Hub 25ms was here", Enum.KeyCode.LeftControl)
 print("|COKKA DEBUG| Anti AFK")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -5086,7 +5086,7 @@ L_35_.Info:Button("My Discord (Click Copy)", function()
 	setclipboard("https://discord.gg/25ms")
 end)
 L_35_.Info:Button("My Youtube (Click Copy)", function()
-	setclipboard("https://www.youtube.com/@CokkaHub")
+	setclipboard("https://www.youtube.com/@PingaHub")
 end)
 L_35_.Info:Button("Listen to Lofi Music", function()
 	local L_553_ = Instance.new("Sound")
